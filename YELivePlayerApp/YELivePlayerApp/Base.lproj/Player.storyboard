@@ -9,11 +9,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Player-->
+        <!--播放-->
         <scene sceneID="Fca-7E-30X">
             <objects>
                 <navigationController id="FxR-pV-Ucn" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Player" id="UwH-pL-Lpi"/>
+                    <tabBarItem key="tabBarItem" title="播放" id="UwH-pL-Lpi"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dOg-Sh-2dc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>

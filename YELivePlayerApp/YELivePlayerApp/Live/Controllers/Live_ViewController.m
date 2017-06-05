@@ -7,8 +7,11 @@
 //
 
 #import "Live_ViewController.h"
+#import "LFLivePreview.h"
 
 @interface Live_ViewController ()
+
+@property (nonatomic, strong) LFLivePreview *livePreview;
 
 @end
 
@@ -16,12 +19,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.navigationController.navigationBarHidden = YES;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:YES];
+    
+    self.livePreview = [[LFLivePreview alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds))];
+  
+    [self.view addSubview:self.livePreview];
+}
+
+- (void)viewDidDisappear:(BOOL)animated
+{
+    [self.livePreview removeFromSuperview];
+    self.livePreview = nil;
+    [super viewDidDisappear:YES];
 }
 
 

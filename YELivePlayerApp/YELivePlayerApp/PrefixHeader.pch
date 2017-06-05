@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  YELivePlayerApp
+//
+//  Created by yongen on 2017/6/5.
+//  Copyright © 2017年 yongen. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define LIVE_URL @"rtmp://172.17.17.71:1993/rtmplive/room"
+
+#define color(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+//默认的统一背景色
+#define bgColor color(248, 248, 248)
+#define globalRedColor color(233,75,75)
+
+#endif /* PrefixHeader_pch */

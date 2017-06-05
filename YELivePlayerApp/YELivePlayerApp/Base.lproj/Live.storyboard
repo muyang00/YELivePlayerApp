@@ -9,11 +9,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Live-->
+        <!--直播-->
         <scene sceneID="eal-gJ-xry">
             <objects>
                 <navigationController id="kuf-iD-zO4" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Live" id="FNX-YT-gFd"/>
+                    <tabBarItem key="tabBarItem" title="直播" id="FNX-YT-gFd"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JV0-AO-vdS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>

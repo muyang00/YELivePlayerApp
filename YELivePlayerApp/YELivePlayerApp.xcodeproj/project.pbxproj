@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B422E2931EE5501900E21155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B422E2921EE5501900E21155 /* main.m */; };
+		B422E2961EE5501900E21155 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B422E2951EE5501900E21155 /* AppDelegate.m */; };
+		B422E29C1EE5501900E21155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B422E29A1EE5501900E21155 /* Main.storyboard */; };
+		B422E29F1EE5501900E21155 /* YELivePlayerApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B422E29D1EE5501900E21155 /* YELivePlayerApp.xcdatamodeld */; };
+		B422E2A11EE5501900E21155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B422E2A01EE5501900E21155 /* Assets.xcassets */; };
+		B422E2A41EE5501900E21155 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B422E2A21EE5501900E21155 /* LaunchScreen.storyboard */; };
+		B422E2AF1EE5501900E21155 /* YELivePlayerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B422E2AE1EE5501900E21155 /* YELivePlayerAppTests.m */; };
+		B422E2BA1EE5501900E21155 /* YELivePlayerAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B422E2B91EE5501900E21155 /* YELivePlayerAppUITests.m */; };
+		B422E2C91EE550E200E21155 /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B422E2C71EE550E200E21155 /* Player.storyboard */; };
+		B422E2CC1EE5510900E21155 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B422E2CA1EE5510900E21155 /* Live.storyboard */; };
+		B422E2D41EE5518600E21155 /* UIControl+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B422E2CF1EE5518600E21155 /* UIControl+YYAdd.m */; };
+		B422E2D51EE5518600E21155 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B422E2D11EE5518600E21155 /* UIView+Extension.m */; };
+		B422E2D61EE5518600E21155 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B422E2D31EE5518600E21155 /* UIView+YYAdd.m */; };
+		B422E2E11EE5520400E21155 /* Live_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B422E2E01EE5520400E21155 /* Live_ViewController.m */; };
+		B422E2E41EE5521500E21155 /* Player_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B422E2E31EE5521500E21155 /* Player_ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B422E2AB1EE5501900E21155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B422E2861EE5501900E21155 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B422E28D1EE5501900E21155;
+			remoteInfo = YELivePlayerApp;
+		};
+		B422E2B61EE5501900E21155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B422E2861EE5501900E21155 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B422E28D1EE5501900E21155;
+			remoteInfo = YELivePlayerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B422E28E1EE5501900E21155 /* YELivePlayerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YELivePlayerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B422E2921EE5501900E21155 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B422E2941EE5501900E21155 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B422E2951EE5501900E21155 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B422E29B1EE5501900E21155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B422E29E1EE5501900E21155 /* YELivePlayerApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YELivePlayerApp.xcdatamodel; sourceTree = "<group>"; };
+		B422E2A01EE5501900E21155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B422E2A31EE5501900E21155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B422E2A51EE5501900E21155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B422E2AA1EE5501900E21155 /* YELivePlayerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YELivePlayerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B422E2AE1EE5501900E21155 /* YELivePlayerAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YELivePlayerAppTests.m; sourceTree = "<group>"; };
+		B422E2B01EE5501900E21155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B422E2B51EE5501900E21155 /* YELivePlayerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YELivePlayerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B422E2B91EE5501900E21155 /* YELivePlayerAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YELivePlayerAppUITests.m; sourceTree = "<group>"; };
+		B422E2BB1EE5501900E21155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B422E2C81EE550E200E21155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Player.storyboard; sourceTree = "<group>"; };
+		B422E2CB1EE5510900E21155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Live.storyboard; sourceTree = "<group>"; };
+		B422E2CE1EE5518600E21155 /* UIControl+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+YYAdd.h"; sourceTree = "<group>"; };
+		B422E2CF1EE5518600E21155 /* UIControl+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+YYAdd.m"; sourceTree = "<group>"; };
+		B422E2D01EE5518600E21155 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		B422E2D11EE5518600E21155 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		B422E2D21EE5518600E21155 /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
+		B422E2D31EE5518600E21155 /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
+		B422E2DF1EE5520400E21155 /* Live_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Live_ViewController.h; sourceTree = "<group>"; };
+		B422E2E01EE5520400E21155 /* Live_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Live_ViewController.m; sourceTree = "<group>"; };
+		B422E2E21EE5521500E21155 /* Player_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player_ViewController.h; sourceTree = "<group>"; };
+		B422E2E31EE5521500E21155 /* Player_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player_ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B422E28B1EE5501900E21155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B422E2A71EE5501900E21155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B422E2B21EE5501900E21155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B422E2851EE5501900E21155 = {
+			isa = PBXGroup;
+			children = (
+				B422E2901EE5501900E21155 /* YELivePlayerApp */,
+				B422E2AD1EE5501900E21155 /* YELivePlayerAppTests */,
+				B422E2B81EE5501900E21155 /* YELivePlayerAppUITests */,
+				B422E28F1EE5501900E21155 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B422E28F1EE5501900E21155 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B422E28E1EE5501900E21155 /* YELivePlayerApp.app */,
+				B422E2AA1EE5501900E21155 /* YELivePlayerAppTests.xctest */,
+				B422E2B51EE5501900E21155 /* YELivePlayerAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B422E2901EE5501900E21155 /* YELivePlayerApp */ = {
+			isa = PBXGroup;
+			children = (
+				B422E2CD1EE5518600E21155 /* Category */,
+				B422E2941EE5501900E21155 /* AppDelegate.h */,
+				B422E2951EE5501900E21155 /* AppDelegate.m */,
+				B422E2DB1EE551D300E21155 /* Player */,
+				B422E2D71EE551D300E21155 /* Live */,
+				B422E29A1EE5501900E21155 /* Main.storyboard */,
+				B422E2CA1EE5510900E21155 /* Live.storyboard */,
+				B422E2C71EE550E200E21155 /* Player.storyboard */,
+				B422E2A01EE5501900E21155 /* Assets.xcassets */,
+				B422E2A21EE5501900E21155 /* LaunchScreen.storyboard */,
+				B422E2A51EE5501900E21155 /* Info.plist */,
+				B422E29D1EE5501900E21155 /* YELivePlayerApp.xcdatamodeld */,
+				B422E2911EE5501900E21155 /* Supporting Files */,
+			);
+			path = YELivePlayerApp;
+			sourceTree = "<group>";
+		};
+		B422E2911EE5501900E21155 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B422E2921EE5501900E21155 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B422E2AD1EE5501900E21155 /* YELivePlayerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B422E2AE1EE5501900E21155 /* YELivePlayerAppTests.m */,
+				B422E2B01EE5501900E21155 /* Info.plist */,
+			);
+			path = YELivePlayerAppTests;
+			sourceTree = "<group>";
+		};
+		B422E2B81EE5501900E21155 /* YELivePlayerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B422E2B91EE5501900E21155 /* YELivePlayerAppUITests.m */,
+				B422E2BB1EE5501900E21155 /* Info.plist */,
+			);
+			path = YELivePlayerAppUITests;
+			sourceTree = "<group>";
+		};
+		B422E2CD1EE5518600E21155 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B422E2CE1EE5518600E21155 /* UIControl+YYAdd.h */,
+				B422E2CF1EE5518600E21155 /* UIControl+YYAdd.m */,
+				B422E2D01EE5518600E21155 /* UIView+Extension.h */,
+				B422E2D11EE5518600E21155 /* UIView+Extension.m */,
+				B422E2D21EE5518600E21155 /* UIView+YYAdd.h */,
+				B422E2D31EE5518600E21155 /* UIView+YYAdd.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B422E2D71EE551D300E21155 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				B422E2D91EE551D300E21155 /* Models */,
+				B422E2DA1EE551D300E21155 /* Views */,
+				B422E2D81EE551D300E21155 /* Controllers */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		B422E2D81EE551D300E21155 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B422E2DF1EE5520400E21155 /* Live_ViewController.h */,
+				B422E2E01EE5520400E21155 /* Live_ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B422E2D91EE551D300E21155 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B422E2DA1EE551D300E21155 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B422E2DB1EE551D300E21155 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				B422E2DD1EE551D300E21155 /* Models */,
+				B422E2DE1EE551D300E21155 /* Views */,
+				B422E2DC1EE551D300E21155 /* Controllers */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		B422E2DC1EE551D300E21155 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B422E2E21EE5521500E21155 /* Player_ViewController.h */,
+				B422E2E31EE5521500E21155 /* Player_ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B422E2DD1EE551D300E21155 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B422E2DE1EE551D300E21155 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B422E28D1EE5501900E21155 /* YELivePlayerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B422E2BE1EE5501900E21155 /* Build configuration list for PBXNativeTarget "YELivePlayerApp" */;
+			buildPhases = (
+				B422E28A1EE5501900E21155 /* Sources */,
+				B422E28B1EE5501900E21155 /* Frameworks */,
+				B422E28C1EE5501900E21155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YELivePlayerApp;
+			productName = YELivePlayerApp;
+			productReference = B422E28E1EE5501900E21155 /* YELivePlayerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B422E2A91EE5501900E21155 /* YELivePlayerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B422E2C11EE5501900E21155 /* Build configuration list for PBXNativeTarget "YELivePlayerAppTests" */;
+			buildPhases = (
+				B422E2A61EE5501900E21155 /* Sources */,
+				B422E2A71EE5501900E21155 /* Frameworks */,
+				B422E2A81EE5501900E21155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B422E2AC1EE5501900E21155 /* PBXTargetDependency */,
+			);
+			name = YELivePlayerAppTests;
+			productName = YELivePlayerAppTests;
+			productReference = B422E2AA1EE5501900E21155 /* YELivePlayerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B422E2B41EE5501900E21155 /* YELivePlayerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B422E2C41EE5501900E21155 /* Build configuration list for PBXNativeTarget "YELivePlayerAppUITests" */;
+			buildPhases = (
+				B422E2B11EE5501900E21155 /* Sources */,
+				B422E2B21EE5501900E21155 /* Frameworks */,
+				B422E2B31EE5501900E21155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B422E2B71EE5501900E21155 /* PBXTargetDependency */,
+			);
+			name = YELivePlayerAppUITests;
+			productName = YELivePlayerAppUITests;
+			productReference = B422E2B51EE5501900E21155 /* YELivePlayerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B422E2861EE5501900E21155 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yongen;
+				TargetAttributes = {
+					B422E28D1EE5501900E21155 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					B422E2A91EE5501900E21155 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B422E28D1EE5501900E21155;
+					};
+					B422E2B41EE5501900E21155 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B422E28D1EE5501900E21155;
+					};
+				};
+			};
+			buildConfigurationList = B422E2891EE5501900E21155 /* Build configuration list for PBXProject "YELivePlayerApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B422E2851EE5501900E21155;
+			productRefGroup = B422E28F1EE5501900E21155 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B422E28D1EE5501900E21155 /* YELivePlayerApp */,
+				B422E2A91EE5501900E21155 /* YELivePlayerAppTests */,
+				B422E2B41EE5501900E21155 /* YELivePlayerAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B422E28C1EE5501900E21155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B422E2A41EE5501900E21155 /* LaunchScreen.storyboard in Resources */,
+				B422E2C91EE550E200E21155 /* Player.storyboard in Resources */,
+				B422E2A11EE5501900E21155 /* Assets.xcassets in Resources */,
+				B422E2CC1EE5510900E21155 /* Live.storyboard in Resources */,
+				B422E29C1EE5501900E21155 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B422E2A81EE5501900E21155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B422E2B31EE5501900E21155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B422E28A1EE5501900E21155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B422E2D51EE5518600E21155 /* UIView+Extension.m in Sources */,
+				B422E2D61EE5518600E21155 /* UIView+YYAdd.m in Sources */,
+				B422E2D41EE5518600E21155 /* UIControl+YYAdd.m in Sources */,
+				B422E29F1EE5501900E21155 /* YELivePlayerApp.xcdatamodeld in Sources */,
+				B422E2961EE5501900E21155 /* AppDelegate.m in Sources */,
+				B422E2E41EE5521500E21155 /* Player_ViewController.m in Sources */,
+				B422E2E11EE5520400E21155 /* Live_ViewController.m in Sources */,
+				B422E2931EE5501900E21155 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B422E2A61EE5501900E21155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B422E2AF1EE5501900E21155 /* YELivePlayerAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B422E2B11EE5501900E21155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B422E2BA1EE5501900E21155 /* YELivePlayerAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B422E2AC1EE5501900E21155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B422E28D1EE5501900E21155 /* YELivePlayerApp */;
+			targetProxy = B422E2AB1EE5501900E21155 /* PBXContainerItemProxy */;
+		};
+		B422E2B71EE5501900E21155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B422E28D1EE5501900E21155 /* YELivePlayerApp */;
+			targetProxy = B422E2B61EE5501900E21155 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B422E29A1EE5501900E21155 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B422E29B1EE5501900E21155 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B422E2A21EE5501900E21155 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B422E2A31EE5501900E21155 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B422E2C71EE550E200E21155 /* Player.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B422E2C81EE550E200E21155 /* Base */,
+			);
+			name = Player.storyboard;
+			sourceTree = "<group>";
+		};
+		B422E2CA1EE5510900E21155 /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B422E2CB1EE5510900E21155 /* Base */,
+			);
+			name = Live.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B422E2BC1EE5501900E21155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B422E2BD1EE5501900E21155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B422E2BF1EE5501900E21155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YELivePlayerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YELivePlayerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B422E2C01EE5501900E21155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YELivePlayerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YELivePlayerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B422E2C21EE5501900E21155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YELivePlayerAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YELivePlayerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YELivePlayerApp.app/YELivePlayerApp";
+			};
+			name = Debug;
+		};
+		B422E2C31EE5501900E21155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YELivePlayerAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YELivePlayerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YELivePlayerApp.app/YELivePlayerApp";
+			};
+			name = Release;
+		};
+		B422E2C51EE5501900E21155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YELivePlayerAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YELivePlayerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YELivePlayerApp;
+			};
+			name = Debug;
+		};
+		B422E2C61EE5501900E21155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YELivePlayerAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YELivePlayerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YELivePlayerApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B422E2891EE5501900E21155 /* Build configuration list for PBXProject "YELivePlayerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B422E2BC1EE5501900E21155 /* Debug */,
+				B422E2BD1EE5501900E21155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B422E2BE1EE5501900E21155 /* Build configuration list for PBXNativeTarget "YELivePlayerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B422E2BF1EE5501900E21155 /* Debug */,
+				B422E2C01EE5501900E21155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B422E2C11EE5501900E21155 /* Build configuration list for PBXNativeTarget "YELivePlayerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B422E2C21EE5501900E21155 /* Debug */,
+				B422E2C31EE5501900E21155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B422E2C41EE5501900E21155 /* Build configuration list for PBXNativeTarget "YELivePlayerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B422E2C51EE5501900E21155 /* Debug */,
+				B422E2C61EE5501900E21155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B422E29D1EE5501900E21155 /* YELivePlayerApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B422E29E1EE5501900E21155 /* YELivePlayerApp.xcdatamodel */,
+			);
+			currentVersion = B422E29E1EE5501900E21155 /* YELivePlayerApp.xcdatamodel */;
+			path = YELivePlayerApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B422E2861EE5501900E21155 /* Project object */;
+}
